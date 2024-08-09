@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/signup.tsx", "src/redux/slice/books.js", "src/redux/store.js", "src/redux/index.js", "src/app/components/Api_Integration/GetApiData.js", "src/app/components/counterAction/counter.js", "src/app/GlobalRedux/Features/counter.js", "src/app/GlobalRedux/Features/fetchapi.js", "src/app/GlobalRedux/provider.js", "src/app/GlobalRedux/store.js"],
   "exclude": ["node_modules"]
 }
